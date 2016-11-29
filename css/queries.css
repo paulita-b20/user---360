@@ -1,0 +1,25 @@
+body{
+	background-image: url(../image/large.jpg);
+	background-size: 160%;
+}
+#formulario{
+	width: 70%;
+	height: 400px;
+	background-color: white;
+	margin:0 auto;
+
+}
+.blue{
+	width: 70%;
+	height: 10px;
+	background-color: blue;
+	margin:0 auto;
+	opacity: 0.5;
+	margin-top:7%;
+}
+span{
+	color: red;
+}
+#elemento{
+	margin-left:20%;
+}
