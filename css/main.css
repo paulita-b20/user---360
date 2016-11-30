@@ -1,4 +1,4 @@
-.fondo {
+.caja {
     background: url(../image/large.jpg) no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -133,18 +133,18 @@ header .banner button {
     background-size: cover;
     height: 470px;
 }
-.fondo-pasos {
+.fondo-pocos {
     background: rgba(66, 66, 87, 0.64);
     height: 470px;
     color: #fff;
 }
-.pasos .right {
+.pocos .right {
     padding-left: 60px;
 }
-.pasos .list-icons {
+.pocos .list-icons {
     list-style: none;
 }
-.pasos .list-icons li i {
+.pocos .list-icons li i {
     font-size: 26px;
     background: #41b0eb;
     border-radius: 100%;
@@ -152,39 +152,39 @@ header .banner button {
     display: inline-block;
     color: #fff;
 }
-.pasos .list-icons .separador {
+.pocos .list-icons .separador {
     padding-top: 60px;
     margin-right: -38px;
 }
-.pasos .list-icons li {
+.pocos .list-icons li {
     text-align: right;
     margin-right: -30px;
     padding-top: 78px;
 }
-.pasos .row p, .pasos .row li {
+.pocos .row p, .pasos .row li {
     line-height: 1.8em;
 }
-.uso {
+.usar {
     margin-top: 100px;
     margin-bottom: 130px;
 }
-.uso h4 {
+.usar h4 {
     display: inline-block;
     line-height: 40px;
     vertical-align: middle;
     padding: 0 10px;
 }
-.uso p {
+.usar p {
     padding-top: 10px;
     line-height: 1.5em;
 }
-.uso ul li {
+.usar ul li {
     line-height: 1.5em;
 }
-.uso ul {
+.usar ul {
     padding: 10px 0 10px 30px;
 }
-.uso small {
+.usar small {
     color: #3490b9;
     font-weight: normal;
 }
