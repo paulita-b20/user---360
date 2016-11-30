@@ -1,151 +1,236 @@
-<<<<<<< HEAD
+.fondo {
+    background: url(../image/large.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 600px;
+}
+header {
+    background: rgba(66, 66, 87, 0.73);
+    height: 450px;
+    color: #fff;
+}
+header .menu {
+    margin-top: 40px;
+}
+header .menu img {
+    height: 35px;
+}
+header .frase {
+    height: 375px;
+    display: table;
+}
+header .frase h1 {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 140px;
+}
+.list-inline {
+    float: right;
+}
+.list-inline li a {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.list-inline li a:hover {
+    text-decoration: none;
+    color: aqua;
+} 
+.fondo .icon-menu {
+    display: none;
+}
+header .banner {
+    background: rgba(75, 134, 247, 0.78);
+    height: 150px;
+}
+header .banner .col-md-4 {
+    margin-top: 30px;
+}
+header .banner button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 26px;
+}
+.servicios {
+    margin: 100px 0;
+}
+.servicios .row {
+    margin-top: 60px;
+}
+.servicios h5 {
+    color: #72a2a2;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 60px;
+    line-height: 1.5em;
+}
+.servicios p {
+    text-align: center;
+    padding: 0 40px;
+}
+.icon-container {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 150px;
+    font-size: 60px;
+    box-shadow: -2px  2px 10px rgba(0,0,0,0.2);
+    border-radius: 100%;
+    color: skyblue;
+}
+.ejemplo {
+    border-top: 1px solid #ccc;
+}
+.ejemplo .container .flecha {
+    margin: 0 auto;
+    display: block;
+    margin-top: -55px;
+}
+.ejemplo .row {
+    margin: 70px 0;
+}
+.ejemplo h4 {
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.ejemplo p {
+    padding-top: 10px;
+}
+.ejemplo .flechados {
+    margin: 0 auto;
+    display: block;
+}
+.pasos {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.pasos .col-md-6 h6 {
+    font-size: 18px;
+    color: #34b9b9;
+    padding-top: 22px;
+}
+.pasos .col-md-6 h5 {
+    font-size: 25px;
+    color: #222222;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.pasos .list-pasos {
+    padding-left: 18px;
+}
+.left {
+    background: url(../image/sec-2.jpg) no-repeat;
+    background-attachment: scroll;
+    background-position: left;
+    background-size: cover;
+    height: 470px;
+}
+.fondo-pasos {
+    background: rgba(66, 66, 87, 0.64);
+    height: 470px;
+    color: #fff;
+}
+.pasos .right {
+    padding-left: 60px;
+}
+.pasos .list-icons {
+    list-style: none;
+}
+.pasos .list-icons li i {
+    font-size: 26px;
+    background: #41b0eb;
+    border-radius: 100%;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+}
+.pasos .list-icons .separador {
+    padding-top: 60px;
+    margin-right: -38px;
+}
+.pasos .list-icons li {
+    text-align: right;
+    margin-right: -30px;
+    padding-top: 78px;
+}
+.pasos .row p, .pasos .row li {
+    line-height: 1.8em;
+}
+.uso {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+.uso h4 {
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.uso p {
+    padding-top: 10px;
+    line-height: 1.5em;
+}
+.uso ul li {
+    line-height: 1.5em;
+}
+.uso ul {
+    padding: 10px 0 10px 30px;
+}
+.uso small {
+    color: #3490b9;
+    font-weight: normal;
+}
+footer .banner {
+    background: rgba(75, 134, 247, 0.78);
+    height: 140px;
+    color: #fff;
+}
+footer .banner .col-sm-7 {
+    margin-top: 30px;
+}
+footer .banner button {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 60px;
+    font-size: 26px;
+    text-align: right;
+}
+footer .pie {
+    background: #3c3c3c;
+    color: #fff;
+}
+footer .pie .col-sm-3 {
+    text-align: right;
+    padding-top: 20px;
+}
+footer .pie .col-sm-9 {
+    padding: 35px 0 10px 0;
+}
+footer .pie .col-sm-3 i {
+    color: rgba(75, 134, 247, 0.78);
+    font-size: 35px;
+    margin-left: 28px;
+}
+footer .pie .col-sm-3 p {
+    padding-top: 10px;
+} 
 
-.container img {
-	width: 100%;
-	font-size: 300px;
-	margin-top: 30px;
-}
-.container h3  {
-	margin-top: 30px;
-	text-align: center;
-}
-#b{
-	color: #1e85d0;
-}
 
-.boton{
-	margin-left: 20px;
-	margin-top: 7%;
-}
-.fondo{
-	max-width: 100%;
-	background-color:#75a2db;
-	text-align: center;
-}
-.fondo h3{
-	color: white;
-}
-.fondo h5{
-	color: white;
-}
-.fondo2 {
-	background-color: #2c3642;
-}
-.copy {
-	color: white;
-	margin-left: 65%;
-	margin-top: 60px;
-}
-.footer h5{
-	color: white;
-	margin-right: 70%;
-}
-.footer h4{
-	color:#75a2db;
-}
-#buto{
-	color:white;
-	background-color: #1e85d0;
-	
-}
 
-=======
-/*main para section img*/
-.u-t{
-	width: 50%;
 
-}
-.letra{
-	color:blue;
-}
-h1{
-	color:#09A1FF;
-}
-.movie{
-	margin-top: 30px;
-}
-.fle{
-	width: 14%;
-	margin-left: 43%;
-}
-.logo{
-	
-	height: 400px;
-	width: 100%;
-	background-color: grey;
-	opacity: 0.5;
-	position: relative;
 
-}
-h5{
-	color:#09A1FF;
-}
-.p{
-	position: absolute;
-	margin-top: -50px;
-	margin-left: 90%;
-}
-#font{
-	position: absolute;
-	margin-top: -320px;
-	margin-left: 90%;
-	background-color:rgb(116,163,219);
-	width: 8%;
-	height: 50px;
-	border-radius: 100%;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	padding-top: 7px;
 
-}
-#font{
-	position: absolute;
-	margin-top: -340px;
-	margin-left: 93%;
-	background-color:rgb(116,163,250);
-	width: 8%;
-	height: 50px;
-	border-radius: 100%;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	padding-top: 7px;
 
-}
-#font1{
-	position: absolute;
-	margin-top: -230px;
-	margin-left: 93%;
-	background-color:rgb(116,163,250);
-	width: 8%;
-	height: 50px;
-	border-radius: 100%;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	padding-top: 7px;
 
-}
-#font2{
-	position: absolute;
-	margin-top: -130px;
-	margin-left: 93%;
-	background-color:rgb(116,163,250);
-	width: 8%;
-	height: 50px;
-	border-radius: 100%;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	padding-top: 7px;
 
-}
-#leter{
-	margin-left: -7%;
-}
-#mr{
-	margin-bottom: 100px;
-}
-/*main para section img*/
->>>>>>> section-img
+
+
